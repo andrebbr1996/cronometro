@@ -7,7 +7,7 @@ let interval = null;
 function start() {
   watch();
   if (interval === null) {
-    interval = setInterval(watch, 1);
+    interval = setInterval(watch, 1000);
   }
 }
 function pause() {
